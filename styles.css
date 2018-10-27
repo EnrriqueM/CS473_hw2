@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.main {
+	width: 100%;
+	height: auto;
+}
+
+.main p {
+	text-align: center;
+}
+
+.search {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.box {
+	border-style: solid;
+	border-color: #8AF6FF;
+	border-width: thin;
+}
+
+.output {
+	display: flex;
+	justify-content: center;
+}
+
+.output p {
+	margin: 25px;
+}
+
+.result {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-style: none;
+	border-right-style: solid;
+}
+
+.found {
+	
+}
+
+.result button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.result button:hover {
+	background-color: #02607B;
+	border-radius: 10%;
+	color: white;
+}
+
+#studentName {
+	font-weight: bold;
+}
+
+.info {
+	width: 100%;
+}
+
+student_info table, student_info td {
+	border: 2px solid black;
+	font-size: 16px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
